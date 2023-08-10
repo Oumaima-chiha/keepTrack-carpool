@@ -30,36 +30,39 @@
 
         <h1>keep Track </h1>
          
- 
+ <form class="container" >
      <div class="form-container">
         <div  class="input-row">
             <i class="fa fa-map-marker icon"></i>
-            <input type="text" id="from" name="from" placeholder="From" class="form-input">
+            <input type="text" id="from" name="from" placeholder="From" class="form-input" required>
         </div>
         <div class="reverse-button input-row">
             <i class="fa fa-exchange icon"></i>
         </div>
         <div  class="input-row">
             <i class="fa fa-map-marker icon"></i>
-            <input type="text" id="to" name="to" placeholder="To"  class="form-input">
+            <input type="text" id="to" name="to" placeholder="To"  class="form-input" required>
         </div >
         <div  class="input-row">
             <i class="fa fa-calendar icon"></i>
-            <input type="date" id="date" name="date"  class="form-input">
+            <input type="date" id="date" name="date"  class="form-input" required>
         </div>
         <div  class="input-row">
             <i class="fa fa-clock-o icon"></i>
-            <input type="time" id="time" name="time" class="form-input">
+            <input type="time" id="time" name="time" class="form-input" required>
         </div>
         </div>
         <div class="button-row">
-        <button class="form-button">
-            <i class="fa fa-plus icon-button"></i> Offer a Ride
+        <button type="submit" class="form-button" id="offer_button">
+            <i class="fa fa-plus icon-button" ></i> Offer a Ride
         </button>
         <button class="form-button">
             <i class="fa fa-search icon-button"></i> Find a Ride
         </button>
         </div>
+    </form>
+      <div class="ride-cards" id="rideCards">
+    </div>
         </section>
         <section id="about" class="full-viewport blue-color">
             <div class="content">

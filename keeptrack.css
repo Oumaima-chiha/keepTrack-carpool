@@ -4,6 +4,11 @@ align-items: center;
 flex-direction: column;
 }
 .tabcontent {background-color: green;}
+.container{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+}
 .form-container {
     display: flex;
     flex-direction: row;
@@ -165,4 +170,14 @@ flex-direction: column;
 .content a {
     color: white;
     text-decoration: underline;
+}
+.card {
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.ride-cards {
+  max-height: 300px; 
+  overflow-y: auto; 
 }
