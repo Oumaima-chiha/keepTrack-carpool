@@ -1,0 +1,103 @@
+.main {
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100vw;
+}
+.tabcontent {background-color: green;}
+.form-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #505050;
+    border-radius: 30px;
+    justify-content: space-around;
+    width: 80vw;
+    align-items: baseline;
+    padding: 5px 20px;
+    align-self: center;
+    position: relative;
+    top:80px;
+}
+.form-input {
+    background-color: rgba(240, 242, 245, 0.7);
+    border: 1px solid #ccd0d5;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+.input-row {
+    display: flex;
+    align-items: baseline;
+
+}
+.icon {
+    color: #1877f2;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.icon-button {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.reverse-button {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.button-row {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20vw;
+}
+
+.form-button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+    position: relative;
+    top:100px;
+}
+    
+ .topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+
+}
+ body {
+            background-image: url('https://cdn.automobile-propre.com/uploads/2021/05/Hyundai-Ioniq-5-Zero-Gravity-Interieur-02.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
