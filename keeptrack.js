@@ -35,7 +35,7 @@ $(document).ready(function() {
    
     let ridePosts = [];
      function displayRideCards() {
-        const rideCardsContainer = $("#rideCards");
+        var rideCardsContainer = $("#rideCards");
         rideCardsContainer.empty(); 
 
         each(ridePosts,function(ridePost, index) {
@@ -58,12 +58,12 @@ $(document).ready(function() {
 
     
     function offerRide() {
-        const from = $("#from").val();
-        const to = $("#to").val();
-        const date = $("#date").val();
-        const time = $("#time").val();
+        var from = $("#from").val();
+        var to = $("#to").val();
+        var date = $("#date").val();
+        var time = $("#time").val();
         
-        const ridePost = {
+        var ridePost = {
             from: from,
             to: to,
             date: date,
@@ -75,13 +75,14 @@ $(document).ready(function() {
 
         alert("Your ride has been offered!");
 
-        // Clear the form fields
+    
         $("#from, #to, #date, #time").val("");
     }
 
     
     $("form").submit(function(event){
         event.preventDefault()
+        *
          offerRide();
          displayRideCards();
 });
